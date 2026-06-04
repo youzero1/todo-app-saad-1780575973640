@@ -1,10 +1,12 @@
-import { BrowserRouter } from 'react-router-dom';
-import TodoPage from '@/pages/TodoPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PortfolioPage from '@/pages/PortfolioPage';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <TodoPage />
+      <Routes>
+        <Route path="/" element={<PortfolioPage />} />
+      </Routes>
     </BrowserRouter>
   );
 }
