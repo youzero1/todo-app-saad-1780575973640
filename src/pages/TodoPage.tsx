@@ -25,7 +25,7 @@ export default function TodoPage() {
         {/* Header */}
         <div className="mb-8 text-center">
           <h1 className="text-5xl font-extrabold tracking-widest text-indigo-600 uppercase drop-shadow-sm">
-            Todos
+            Todo
           </h1>
           <p className="mt-2 text-sm text-gray-500">
             {activeCount} {activeCount === 1 ? 'task' : 'tasks'} remaining
